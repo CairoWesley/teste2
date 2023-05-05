@@ -1,0 +1,28 @@
+.container {
+    justify-content: center;
+    width: 100%;
+    padding: 0 8px !important;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
+
+
+.wrapper-checkout {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+
+.bloco-checkout {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: black;
+}

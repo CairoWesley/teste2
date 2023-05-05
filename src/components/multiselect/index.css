@@ -1,0 +1,85 @@
+.select {
+    width: 400px;
+    margin: 20px;
+
+}
+
+.select:disabled {
+    color: black;
+
+}
+
+.label {
+    color: black;
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.bloco {
+    margin-top: 100px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    margin-top: 100px;
+    width: 700px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    background-color: white;
+    align-self: center;
+}
+.tutorial{ 
+    margin: 20px;
+}
+
+.my-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    color: #212529;
+    font-size: 0.9rem;
+    text-align: left;
+    border: 1px solid #dee2e6;
+  }
+  
+  .my-table th,
+  .my-table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .my-table th {
+    background-color: #e9ecef;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .my-table tbody tr:nth-of-type(even) {
+    background-color: #f8f9fa;
+  }
+  
